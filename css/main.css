@@ -1,0 +1,360 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#home{
+    height: 100vh;
+    background-image: url("../img/apple_on_chair.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#about{
+    height: 100vh;
+    width: 60vw;
+}
+
+#skills{
+
+}
+
+#work{
+
+}
+
+#proces{
+
+}
+
+#services
+{
+    background-color: lightgrey;
+}
+
+#services div
+{
+    width: 25%;
+    height: 25%;
+    float: left;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#services div img
+{
+    text-align: center;
+    width: 30%;
+
+}
+
+#testimonials{
+    text-align: center;
+}
+
+#quotes
+{
+    height: 50vh;
+    background: #1ecbc6;
+}
+
+#quotes p
+{
+    width: 60vh;
+    color: white;
+}
+
+#logos div
+{
+    width: 20%;
+    height: 20%;
+    float: left;
+
+}
+
+#designdevelop{
+    width: 40vw;
+    text-align: left;
+    float: right;
+    margin-top: 20%;
+}
+
+#designdevelop h1{
+    padding: 10px;
+}
+
+#designdevelop p{
+    padding: 10px;
+}
+
+#contactus{
+    color: white;
+    background-color: #1ecbc6;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 10px;
+}
+
+#proffesionalskills
+{
+    height: 60vh;
+    background-color: #f2f3f5;
+    width: 50vw;
+    float: left;
+
+}
+
+#pencil{
+    width: 49vw;
+    float: left;
+    height: 60vh;
+}
+
+#pencil img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#results
+{
+    float: none;
+    height: 30vh;
+    background-color: #1ecbc6;
+    float: right;
+    display: block;
+    text-align: center;
+    width: 100vw;
+}
+
+#results div
+{   
+    width: 25vw;
+    float: left;
+    color: white;
+}
+
+#results div img
+{
+    width: 20%;
+}
+
+#unknown{
+    font-size: 14px;
+}
+
+#works
+{
+    height: 85vh;
+}
+
+#works img
+{
+    width: 25%;
+    height: 25%;
+    float: left;
+}
+
+#works img:hover
+{
+    background-color: darkgrey;
+    opacity: 0.2;
+}
+
+#loadmoreworks
+{
+    height: 15vh;
+    background-color: lightgrey;
+    color: grey;
+    float: left;
+    width: 100%;
+}
+
+#process
+{
+    text-align: center;
+}
+
+#process p
+{
+    width: 50vw;
+    padding: 10px;
+}
+
+#process h2
+{
+    padding-top: 10px;
+    padding: 10px;
+}
+
+#loadmoreworks p
+{
+    text-align: center;
+    padding: 6vh;
+}
+
+#contact{
+    height: 100vh;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#contact p
+{
+    width: 40vw;
+    padding: 10px;
+}
+
+#contact h2
+{
+    padding: 10px;
+}
+
+#contact form
+{
+    width: 40vw;
+    text-align: center;
+}
+
+input
+{
+    margin: 5px;
+}
+
+#name{
+    width: 45%;
+    height: 40px;
+}
+
+#email
+{
+    width: 45%;
+    height: 40px;
+}
+
+#title{
+    width: 93%;
+    height: 40px;
+}
+
+#comment
+{
+    width: 93%;
+    height: 200px;
+}
+
+#sendmessage{
+    color: white;
+    background-color: #1ecbc6;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 10px;
+
+}
+
+#quotes{
+    height: 70vh;
+}
+
+#logos{
+    height: 30vh;
+}
+
+#menu{
+    text-align: right;
+}
+
+#menu li{
+    display: inline;
+}
+
+#menu li a{
+    color: grey;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#menu li a:hover{
+    color: #1ecbc6;
+}
+
+#about h2{
+    padding: 10px;
+    text-align: center;
+}
+
+#about p{
+    padding: 10px;
+    text-align: center;
+}
+
+#about{
+    height: 30vh;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20vh;
+}
+
+footer div
+{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-top: 40px;
+}
+
+footer div ul
+{
+    list-style-type:none;
+}
+
+#myProgress1 
+{
+    width: 100%;
+    background-color: grey;
+}
+
+#myProgress2 
+{
+    width: 100%;
+    background-color: grey;
+}
+
+#myProgress3
+{
+    width: 100%;
+    background-color: grey;
+}
+
+#myBar1 
+{
+    width: 1%;
+    height: 30px;
+    background-color: #1ecbc6;
+}
+
+#myBar2 
+{
+    width: 1%;
+    height: 30px;
+    background-color: #1ecbc6;
+}
+
+#myBar3 
+{
+    width: 1%;
+    height: 30px;
+    background-color: #1ecbc6;
+}
