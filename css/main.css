@@ -18,7 +18,7 @@ body{
 }
 
 #about{
-    height: 25vh;
+
     width: 60%;
 }
 
@@ -151,21 +151,29 @@ body{
 
 #works
 {
-    height: 85vh;
+    height: 100%;
 }
 
-#works img
+.work_img>img
+{
+    width: 100%;
+}
+
+.work_img>img:hover
+{
+    background-color: black;
+    opacity: 0.2;
+}
+
+.work_img
 {
     width: 25%;
     height: 25%;
     float: left;
+    background-image: url("../img/eye.jpg");
+    background-repeat: round;
 }
 
-#works img:hover
-{
-    background-color: darkgrey;
-    opacity: 0.2;
-}
 
 #loadmoreworks
 {
