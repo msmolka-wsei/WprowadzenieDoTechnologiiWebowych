@@ -5,7 +5,18 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 110%;
+}
+
+@media screen and (min-width: 601px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 13px;
+    }
 }
 
 #home{
@@ -20,18 +31,11 @@ body{
 #about{
 
     width: 60%;
+    clear: both;
 }
 
 #skills{
     background-color: #f2f3f5;
-}
-
-#work{
-
-}
-
-#proces{
-
 }
 
 #services
@@ -84,7 +88,7 @@ body{
     width: 40%;
     text-align: left;
     float: right;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 #designdevelop h1{
@@ -145,10 +149,6 @@ body{
     width: 20%;
 }
 
-#unknown{
-    font-size: 14px;
-}
-
 #works
 {
     height: 100%;
@@ -174,7 +174,6 @@ body{
     background-repeat: round;
 }
 
-
 #loadmoreworks
 {
     background-color: lightgrey;
@@ -186,6 +185,7 @@ body{
 #process
 {
     text-align: center;
+    clear: both;
 }
 
 #process p
@@ -366,4 +366,28 @@ footer div ul
     background-color: #1ecbc6;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.video {
+    width: 100%;
+}
+.wrapper{
+    display:table;
+    width:auto;
+    position:relative;
+    width:50%;
+}
+.playpause {
+    background-image:url("../img/play.png");
+    background-repeat:no-repeat;
+    width:25%;
+    height:35%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
 }
